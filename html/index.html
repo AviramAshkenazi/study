@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="..\css\login.css">
+    <link rel="shortcut icon" href="..\images\icon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="mainBox">
+        <div class = "header">
+            <h1>Create account</h1>
+        </div>
+    
+        <div class="emailInput">
+            <input type="email" id="mail" name="Email" placeholder="Email">
+        </div>
+    
+        <br>
+
+        <div class="nameInput">
+            <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+
+        <br>    
+
+        <div id="terms">
+            <label class="container">
+                <p id="acceptTerms">I have read and agree to the<a href="#"> Terms Of Use</a> and <a href="#"> Paivacy Policy</a>.</p>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <div id="create">
+            <button type="submit" onclick="alert('Welcome!')">Create Account</button>
+        </div>
+
+        <div class="socail">
+            <br>
+            <b class="line" color="white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </b><text>&ensp; or sign in with social media &ensp;</text> <b class="line" color="white"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </b>
+            <br>
+            <a href="https://en-gb.facebook.com/login/" class="fa fa-facebook">  Facebook</a>
+            <a href="https://twitter.com/login?lang=en" class="fa fa-twitter">  Twitter</a>
+            <a href="https://plus.google.com/people" class="fa fa-google"> Google+</a>
+        </div>
+
+        <div>
+            <P id="signIn">Already have an account <a href="#">Sign in</a>.</P>
+        </div>
+    </div>
+</body>
+</html>
