@@ -1,0 +1,100 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 550px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 0; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: grey; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    border: 2px solid black;
+    border-radius: 1px;
+    margin-top: 6%; 
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#johnDoe{
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+    padding: 45px;
+}
+
+#userName{
+    color: black;
+    font-family: cursive;
+    font-size: 21px;
+    top: 0;
+    padding-left: 45px;
+}
+
+#userMail{
+    color: black;
+    font-family: cursive;
+    font-size: 19px;
+    top: 0;
+    padding-left: 25px;
+}
+
+#listIcon{
+    height: 20px;
+    width: 20px;
+}
+
+#cardIcon{
+    height: 22px;
+    width: 22px;
+}
+
+#buttonIcon{
+    height: 22px;
+    width: 22px;
+}
+
+#toggleButtonIcon{
+    height: 22px;
+    width: 22px;
+}
+
+#tabsIcon{
+    height: 22px;
+    width: 22px;
+}
+
+#spinnerIcon{
+    height: 22px;
+    width: 22px;
+}
+
+.optionIcon{
+    height: 50px;
+    width: 50px;
+    padding-left: 120px;
+} 
